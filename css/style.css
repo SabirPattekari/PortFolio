@@ -118,7 +118,7 @@ body {
 }
 
 /* hamburger */
-/* hamburger */
+/* Hamburger menu */
 .hamburger {
   display: inline-block;
   cursor: pointer;
@@ -146,6 +146,23 @@ body {
 
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Nav Menu for smaller screens */
+.nav-menu {
+  display: none; /* Initially hidden */
+  flex-direction: column;
+  background-color: var(--bg-primary);
+  padding: 1rem;
+  position: absolute;
+  top: 4.5rem;
+  right: 0;
+  width: 50%; /* Adjust size */
+  box-shadow: var(--shadow);
+}
+
+.nav-menu.active {
+  display: flex; /* Show when active */
 }
 
 /* Hero section */

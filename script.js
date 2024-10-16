@@ -1,10 +1,10 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
 
 // Toggle the hamburger and nav menu
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  navMenu.classList.toggle("active");
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
 });
 
 // Close the menu when a link is clicked
