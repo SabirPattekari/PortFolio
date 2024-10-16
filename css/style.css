@@ -257,6 +257,9 @@ body {
 }
 
 @media (max-width: 768px) {
+}
+
+@media (max-width: 670px) {
   .navbar .nav-menu {
     position: fixed;
     right: -100vw;
