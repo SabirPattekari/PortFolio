@@ -1,41 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" href="style2.css">
-</head>
-<body>
-    <div class="projects-container">
-        <h1>My Projects</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sabir Pattekari - Projects</title>
+    <link rel="stylesheet" href="css/style1.css" />
+  </head>
 
-        <!-- E-commerce Website Project -->
-        <div class="project">
-            <h2>E-commerce Website</h2>
-            <ul>
-                <li>Using the technologies React, Javascript, Html created a E-commerce website</li>
-                <li>Features a shopping cart, product listings, and user authentication.</li>
-                <li>Integrated payment gateway for secure transactions.</li>
-                <li>Responsive design for optimal experience across devices.</li>
-            </ul>
-            <p><strong>Live Host Link:</strong> <a href="https://e-commerce-8po2avfhy-sabir-pattekaris-projects.vercel.app/" target="_blank">Visit E-commerce Website</a></p>
-            <p><strong>GitHub Link:</strong> <a href="https://github.com/SabirPattekari/E-commerce" target="_blank">View on GitHub</a></p>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <h1 id="logo">
+            <a href="index.html"><img src="./assets/logo.png" alt="Logo" /></a>
+          </h1>
+          <ul class="nav-menu">
+            <li><a class="nav-link" href="projects.html">PROJECTS</a></li>
+            <li><a class="nav-link" href="contact.html">CONTACT</a></li>
+            <li>
+              <a
+                class="nav-link btn btn-primary"
+                href="https://drive.google.com/file/d/1DWalYbXpHlI7Lhw71y6sxiXcRtU2n5bs/view?usp=drive_link"
+                >RESUME <i class="fas fa-arrow-right"></i></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="projects" class="container project-container">
+      <div class="content-text">
+        <h2>Projects</h2>
+        <p>Explore my personal and freelance projects.</p>
+      </div>
+
+      <div class="project-grid">
+        <div class="card">
+          <h3>Personal Blog</h3>
+          <p>Python, SQLite, Flask, HTML/CSS</p>
+          <div class="project-link">
+            <a href="https://github.com/SabirPattekari/PortFolio" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
         </div>
 
-        <!-- Portfolio Website Project -->
-        <div class="project">
-            <h2>Portfolio Website</h2>
-            <ul>
-                <li>Built using HTML, CSS, JavaScript, and Python.</li>
-                <li>Showcases personal projects, experience, and skills.</li>
-                <li>Responsive design, ensuring a seamless experience across devices.</li>
-                <li>Includes a contact form for users to reach out directly.</li>
-            </ul>
-            <p><strong>Live Host Link:</strong> <a href="https://sabirpattekari.github.io/PortFolio/" target="_blank">Visit Portfolio</a></p>
-            <p><strong>GitHub Link:</strong> <a href="https://github.com/SabirPattekari/PortFolio" target="_blank">View on GitHub</a></p>
+        <div class="card">
+          <h3>E-commerce Website</h3>
+          <p>Django, Python, SQLite, HTML/CSS</p>
+          <div class="project-link">
+            <a href="https://github.com/SabirPattekari/E-commerce" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://e-commerce-8po2avfhy-sabir-pattekaris-projects.vercel.app/" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
         </div>
 
-    </div>
-</body>
+        <div class="card">
+          <h3>Portfolio Website</h3>
+          <p>HTML, CSS, JavaScript</p>
+          <div class="project-link">
+            <a href="https://github.com/SabirPattekari" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="btn btn-secondary" target="_blank">See More Projects</a>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <a href="mailto:sabir14032002@gmail.com">sabir14032002@gmail.com</a>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/sabir8" target="_blank"><img src="assets/linkedin-icon.svg" alt="LinkedIn" /></a>
+          <a href="https://github.com/SabirPattekari" target="_blank"><img src="assets/github-icon.svg" alt="GitHub" /></a>
+        </div>
+        <p>&copy; Sabir Pattekari, <span id="datee"></span>. All rights reserved</p>
+      </div>
+    </footer>
+  </body>
 </html>
